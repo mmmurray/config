@@ -1,2 +1,3 @@
-# config
+# Config 🔧
+
 Various config files.
