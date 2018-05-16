@@ -1,0 +1,67 @@
+{
+  "csharp.suppressDotnetInstallWarning": true,
+  "csharp.suppressDotnetRestoreNotification": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "all",
+  "editor.snippetSuggestions": "top",
+  "editor.tabSize": 2,
+  "editor.wordWrap": true,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "extensions.ignoreRecommendations": true,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "npm-intellisense.scanDevDependencies": true,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/coverage": true
+  },
+  "terminal.integrated.fontFamily": "Meslo LG S for Powerline",
+  "terminal.integrated.scrollback": 100000,
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "window.nativeTabs": true,
+  "window.zoomLevel": 0,
+  "workbench.colorCustomizations": {
+    "panel.background": "#111",
+    "activityBar.background": "#111",
+    "activityBarBadge.background": "#C6FF00",
+    "list.activeSelectionForeground": "#C6FF00",
+    "list.inactiveSelectionForeground": "#C6FF00",
+    "list.highlightForeground": "#C6FF00",
+    "scrollbarSlider.activeBackground": "#C6FF0050",
+    "editorSuggestWidget.highlightForeground": "#C6FF00",
+    "textLink.foreground": "#C6FF00",
+    "progressBar.background": "#C6FF00",
+    "pickerGroup.foreground": "#C6FF00",
+    "terminal.background": "#000000",
+    "terminal.ansiBrightBlack": "#808080"
+  },
+  "workbench.colorTheme": "One Monokai 80s",
+  "workbench.statusBar.feedback.visible": false,
+  "workbench.welcome.enabled": false,
+  "[typescript]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": false
+    }
+  },
+  "[typescriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": false
+    }
+  },
+  "[javascript]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": false
+    }
+  },
+  "[javascriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": false
+    }
+  }
+}
