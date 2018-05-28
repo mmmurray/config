@@ -16,7 +16,7 @@ gnb() { git checkout -b $1; }
 
 alias b='yarn build'
 alias c='yarn coverage'
-alias d='yarn develop'
+alias d='yarn dev'
 alias i='npm install'
 alias i='yarn install'
 alias j='yarn jest'
