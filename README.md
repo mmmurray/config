@@ -4,10 +4,10 @@ Various config files.
 
 ## Shell
 
-In `~/.profile` or `~/.zshrc`, add:
+In `~/.zshrc`, add:
 
 ```bash
-source ~/projects/config/shell/.profile`
+source ~/projects/config/shell/.profile
 ```
 
 ## VS Code
