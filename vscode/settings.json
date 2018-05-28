@@ -18,7 +18,6 @@
     "**/bower_components": true,
     "**/coverage": true
   },
-  "terminal.integrated.fontFamily": "Meslo LG S for Powerline",
   "terminal.integrated.scrollback": 100000,
   "terminal.integrated.shell.osx": "/bin/zsh",
   "window.zoomLevel": 0,
