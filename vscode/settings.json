@@ -58,5 +58,6 @@
       "source.organizeImports": false
     }
   },
-  "workbench.startupEditor": "newUntitledFile"
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.formatOnSave": true
 }
