@@ -34,7 +34,8 @@
     "progressBar.background": "#C6FF00",
     "pickerGroup.foreground": "#C6FF00",
     "terminal.background": "#000000",
-    "terminal.ansiBrightBlack": "#808080"
+    "terminal.ansiBrightBlack": "#808080",
+    "terminal.border": "#808080"
   },
   "workbench.colorTheme": "One Monokai 80s",
   "workbench.statusBar.feedback.visible": false,
