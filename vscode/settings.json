@@ -25,6 +25,7 @@
   },
   "terminal.integrated.scrollback": 100000,
   "terminal.integrated.shell.osx": "/bin/zsh",
+  "terminal.integrated.fontSize": 14,
   "window.zoomLevel": 0,
   "workbench.colorCustomizations": {
     "panel.background": "#111",
@@ -72,6 +73,5 @@
   "gitlens.keymap": "alternate",
   "gitlens.advanced.messages": {
     "suppressShowKeyBindingsNotice": true
-  },
-  "terminal.integrated.fontFamily": "Source Code Pro for Powerline"
+  }
 }
