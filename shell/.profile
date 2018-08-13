@@ -32,3 +32,5 @@ alias w='yarn run watch'
 
 alias ls='ls -la'
 alias o='open'
+
+export PROMPT="😐  $PROMPT"
