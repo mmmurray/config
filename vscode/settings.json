@@ -14,7 +14,6 @@
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
   "prettier.tabWidth": 2,
-  "prettier.printWidth": 120,
   "prettier.singleQuote": true,
   "prettier.trailingComma": "all",
   "prettier.semi": false,
@@ -43,7 +42,7 @@
     "terminal.ansiBrightBlack": "#808080",
     "terminal.border": "#808080"
   },
-  "workbench.colorTheme": "One Monokai 80s",
+  "workbench.colorTheme": "Panda Syntax",
   "workbench.statusBar.feedback.visible": false,
   "[typescript]": {
     "editor.codeActionsOnSave": {
@@ -67,11 +66,12 @@
   },
   "workbench.startupEditor": "newUntitledFile",
   "editor.renderIndentGuides": false,
-  "editor.formatOnSave": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "gitlens.keymap": "alternate",
   "gitlens.advanced.messages": {
     "suppressShowKeyBindingsNotice": true
-  }
+  },
+  "editor.formatOnSave": true,
+  "editor.fontSize": 14
 }
