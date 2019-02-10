@@ -25,7 +25,7 @@
   "terminal.integrated.scrollback": 100000,
   "terminal.integrated.shell.osx": "/bin/zsh",
   "terminal.integrated.fontSize": 14,
-  "window.zoomLevel": 0,
+  "window.zoomLevel": 1,
   "workbench.colorCustomizations": {
     "panel.background": "#111",
     "activityBar.background": "#111",
