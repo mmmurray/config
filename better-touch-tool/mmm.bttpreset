@@ -1,5 +1,5 @@
 {
-  "BTTPresetName" : "Default",
+  "BTTPresetName" : "mmm",
   "BTTGeneralSettings" : {
     "disableScrollingIf3" : true,
     "BTTForceNormalClickPressure5F" : 200,
@@ -15,7 +15,7 @@
     "BTTTouchBarHapticFeedback" : 0,
     "BTTForceNormalClickPressure" : 150,
     "BSTSnapAreaDefaultHighlightColor" : "92.624286, 122.650411, 161.665578, 56.100000",
-    "BTTLastClamshellState" : false,
+    "BTTLastClamshellState" : true,
     "BSTSnapAreaDefaultShowPictogram" : false,
     "BTTAllowThumbIfAllFingersArePlacedSimultaneously" : true,
     "BTTShowESCWhenControlStripHidden" : true,
@@ -129,7 +129,7 @@
     "BTTTouchBarVisible" : false,
     "BTTTouchBarUseMonoSpacedFont" : true
   },
-  "BTTPresetUUID" : "C7F9F322-440B-4000-B0D9-FCFA3C445B43",
+  "BTTPresetUUID" : "5214B8B0-8BC2-4E17-AC79-7A3BC8440D03",
   "BTTPresetContent" : [
     {
       "BTTAppBundleIdentifier" : "BT.G",
@@ -139,6 +139,37 @@
       },
       "BTTTriggers" : [
         {
+          "BTTTriggerType" : 1003,
+          "BTTTriggerTypeDescription" : "Button 3",
+          "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
+          "BTTPredefinedActionType" : 77,
+          "BTTPredefinedActionName" : "3F Swipe Left (Page Back)",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "E213228B-B6A2-4FF3-AE45-64A48F4ACDEA",
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+          "BTTAlternateModifierKeys" : 0,
+          "BTTOrder" : 0,
+          "BTTDisplayOrder" : 0,
+          "BTTMergeIntoTouchBarGroups" : 0
+        },
+        {
+          "BTTTriggerType" : 1004,
+          "BTTTriggerTypeDescription" : "Button 4",
+          "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
+          "BTTPredefinedActionType" : 78,
+          "BTTPredefinedActionName" : "3F Swipe Right (Page Forward)",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "BAB06C82-D6BA-4B45-B7DF-48B9CA65931B",
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+          "BTTAlternateModifierKeys" : 0,
+          "BTTOrder" : 1,
+          "BTTDisplayOrder" : 0,
+          "BTTMergeIntoTouchBarGroups" : 0
+        },
+        {
+          "BTTTriggerType" : -1,
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
           "BTTPredefinedActionType" : 14,
           "BTTPredefinedActionName" : "Sleep Computer",
@@ -147,11 +178,16 @@
           "BTTUUID" : "3D3AF600-0B0B-439A-AC3A-5765A74CD3B2",
           "BTTTriggerOnDown" : 1,
           "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+          "BTTAlternateModifierKeys" : 0,
           "BTTShortcutKeyCode" : 113,
           "BTTShortcutModifierKeys" : 8388608,
-          "BTTOrder" : 0
+          "BTTOrder" : 0,
+          "BTTDisplayOrder" : 0,
+          "BTTMergeIntoTouchBarGroups" : 0
         },
         {
+          "BTTTriggerType" : -1,
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
           "BTTPredefinedActionType" : -1,
           "BTTPredefinedActionName" : "No Action",
@@ -161,9 +197,13 @@
           "BTTUUID" : "D949C968-E396-4B4D-BC58-21D4250A183B",
           "BTTTriggerOnDown" : 1,
           "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+          "BTTAlternateModifierKeys" : 0,
           "BTTShortcutKeyCode" : 10,
           "BTTShortcutModifierKeys" : 0,
-          "BTTOrder" : 1
+          "BTTOrder" : 1,
+          "BTTDisplayOrder" : 0,
+          "BTTMergeIntoTouchBarGroups" : 0
         }
       ]
     },
