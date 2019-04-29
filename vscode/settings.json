@@ -42,7 +42,7 @@
     "terminal.ansiBrightBlack": "#808080",
     "terminal.border": "#808080"
   },
-  "workbench.colorTheme": "Panda Syntax",
+  "workbench.colorTheme": "SynthWave '84",
   "workbench.statusBar.feedback.visible": false,
   "[typescript]": {
     "editor.codeActionsOnSave": {
@@ -73,5 +73,8 @@
     "suppressShowKeyBindingsNotice": true
   },
   "editor.formatOnSave": true,
-  "editor.fontSize": 14
+  "editor.fontSize": 14,
+  "vscode_custom_css.imports": [
+    "file:///Users/markmurray/projects/config/vscode/synthwave84.css"
+  ]
 }
