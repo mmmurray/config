@@ -42,7 +42,7 @@
     "terminal.ansiBrightBlack": "#808080",
     "terminal.border": "#808080"
   },
-  "workbench.colorTheme": "SynthWave '84",
+  "workbench.colorTheme": "Panda Syntax",
   "workbench.statusBar.feedback.visible": false,
   "[typescript]": {
     "editor.codeActionsOnSave": {
