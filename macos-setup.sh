@@ -136,10 +136,10 @@ git config --global user.name "Mark Murray"
 if [ -f ~/.ssh/id_rsa.pub ]; then
    echo "SSH key already exists"
 else
-ssh-keygen -t rsa -b 4096 -C "mark@murray.xyz" -f ~/.ssh/id_rsa -P ""
-cat ~/.ssh/id_rsa.pub | pbcopy
-echo "SSH key generated and copied to clipboard. Add to https://github.com/settings/keys"
-read -p "Press enter to continue"
+  ssh-keygen -t rsa -b 4096 -C "mark@murray.xyz" -f ~/.ssh/id_rsa -P ""
+  cat ~/.ssh/id_rsa.pub | pbcopy
+  echo "SSH key generated and copied to clipboard. Add to https://github.com/settings/keys"
+  read -p "Press enter to continue"
 fi
 
 echo "Installing Visual Studio Code"
@@ -169,10 +169,14 @@ brew install node
 echo "Installing Yarn"
 npm i -g yarn
 
-echo "Cloning projects"
-mkdir -p ~/projects
-cd ~/projects
-hub clone config
+if [ -d ~/projects ]; then
+  echo "Projects already exist"
+else
+  echo "Cloning projects"
+  mkdir -p ~/projects
+  cd ~/projects
+  hub clone config
+fi
 
 echo "Installing ZSH"
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
