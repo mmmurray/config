@@ -132,10 +132,15 @@ open "/Applications/Google Chrome.app" --args --make-default-browser
 echo "Configuring Git"
 git config --global user.email "mark@murray.xyz"
 git config --global user.name "Mark Murray"
+
+if [ -f ~/.ssh/id_rsa.pub ]; then
+   echo "SSH key already exists"
+else
 ssh-keygen -t rsa -b 4096 -C "mark@murray.xyz" -f ~/.ssh/id_rsa -P ""
 cat ~/.ssh/id_rsa.pub | pbcopy
 echo "SSH key generated and copied to clipboard. Add to https://github.com/settings/keys"
 read -p "Press enter to continue"
+fi
 
 echo "Installing Visual Studio Code"
 brew cask install visual-studio-code
