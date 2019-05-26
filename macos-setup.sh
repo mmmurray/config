@@ -1,5 +1,5 @@
 #!/bin/bash
-set -ex
+set -e
 
 echo "Starting clean setup of MacOS..."
 
