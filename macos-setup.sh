@@ -169,7 +169,7 @@ hub clone config
 
 echo "Installing ZSH"
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-cat "source ~/projects/config/shell/.profile" >> ~/.zshrc
+echo "source ~/projects/config/shell/.profile" >> ~/.zshrc
 
 echo "Automatic install complete. Manual setup tasks:"
 echo "  1. System Preferences > Security & Privacy > General"
