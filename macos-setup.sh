@@ -1,3 +1,6 @@
+#!/bin/bash
+set -ex
+
 echo "Starting clean setup of MacOS..."
 
 export CI=true
