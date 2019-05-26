@@ -133,6 +133,7 @@ git config --global user.name "Mark Murray"
 ssh-keygen -t rsa -b 4096 -C "mark@murray.xyz" -f ~/.ssh/id_rsa -P ""
 cat ~/.ssh/id_rsa.pub | pbcopy
 echo "SSH key generated and copied to clipboard. Add to https://github.com/settings/keys"
+read -p "Press enter to continue"
 
 echo "Installing Visual Studio Code"
 brew cask install visual-studio-code
