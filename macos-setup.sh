@@ -162,7 +162,7 @@ echo "Installing Yarn"
 npm i -g yarn
 
 echo "Cloning projects"
-mkdir ~/projects
+mkdir -p ~/projects
 cd ~/projects
 hub clone config
 
