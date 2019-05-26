@@ -125,7 +125,7 @@ echo "Installing Homebrew"
 
 echo "Installing Google Chrome"
 brew cask install google-chrome
-open -a "Google Chrome" --args --make-default-browser
+open "/Applications/Google Chrome.app" --args --make-default-browser
 
 echo "Configuring Git"
 git config --global user.email "mark@murray.xyz"
