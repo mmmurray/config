@@ -31,6 +31,8 @@ defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
 # Menubar
 defaults write com.apple.menuextra.battery ShowPercent 'YES'
 defaults write com.apple.menuextra.clock DateFormat 'EEE d MMM  HH:mm:ss'
+defaults write com.apple.systemuiserver "NSStatusItem Visible com.apple.menuextra.volume" -bool true
+defaults write com.apple.systemuiserver menuExtras -array-add '/System/Library/CoreServices/Menu Extras/Volume.menu'
 
 # Dock
 defaults write com.apple.dock autohide -bool true
