@@ -119,6 +119,8 @@ defaults write com.apple.dock persistent-apps -array '{
   };
   "tile-type" = "file-tile";
 }'
+killall Dock
+killall Finder
 
 echo "Installing Homebrew"
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
