@@ -4,7 +4,7 @@
     "disableScrollingIf3" : true,
     "BTTForceNormalClickPressure5F" : 200,
     "disableScrollingIf2" : true,
-    "BTTDidRegisterForUpdateStats" : "2.660",
+    "BTTDidRegisterForUpdateStats" : "2.716",
     "BTTShowControlStrip" : true,
     "BTTShowControlStripItem" : true,
     "BTTForceForceClickPressure5F" : 600,
@@ -15,7 +15,7 @@
     "BTTTouchBarHapticFeedback" : 0,
     "BTTForceNormalClickPressure" : 150,
     "BSTSnapAreaDefaultHighlightColor" : "92.624286, 122.650411, 161.665578, 56.100000",
-    "BTTLastClamshellState" : true,
+    "BTTLastClamshellState" : false,
     "BSTSnapAreaDefaultShowPictogram" : false,
     "BTTAllowThumbIfAllFingersArePlacedSimultaneously" : true,
     "BTTShowESCWhenControlStripHidden" : true,
@@ -112,7 +112,7 @@
     "BSTCornerRoundness" : 40,
     "BTTDismissIfNothingToShow" : true,
     "BSTPreventTopMissionControl" : true,
-    "BTTNumberOfStarts" : 330,
+    "BTTNumberOfStarts" : 331,
     "BTTHTTPServerEncrypted" : false,
     "showKeyboardTab" : true,
     "BTTConvertedDevices" : true,
@@ -129,8 +129,15 @@
     "BTTTouchBarVisible" : false,
     "BTTTouchBarUseMonoSpacedFont" : true
   },
-  "BTTPresetUUID" : "632FA595-0C85-40C4-9019-644763605F86",
+  "BTTPresetUUID" : "9C482834-43A7-4620-A23A-A426DA46C0FE",
   "BTTPresetContent" : [
+    {
+      "BTTAppBundleIdentifier" : "com.apple.finder",
+      "BTTAppName" : "Finder",
+      "BTTTriggers" : [
+
+      ]
+    },
     {
       "BTTAppBundleIdentifier" : "BT.G",
       "BTTAppName" : "Global",
@@ -139,70 +146,7 @@
       },
       "BTTTriggers" : [
         {
-          "BTTTriggerType" : 1004,
-          "BTTTriggerTypeDescription" : "Button 4",
-          "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
-          "BTTPredefinedActionType" : 78,
-          "BTTPredefinedActionName" : "3F Swipe Right (Page Forward)",
-          "BTTEnabled2" : 1,
-          "BTTUUID" : "BAB06C82-D6BA-4B45-B7DF-48B9CA65931B",
-          "BTTEnabled" : 1,
-          "BTTModifierMode" : 0,
-          "BTTAlternateModifierKeys" : 0,
-          "BTTOrder" : 1,
-          "BTTDisplayOrder" : 0,
-          "BTTMergeIntoTouchBarGroups" : 0
-        },
-        {
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : 27,
-          "BTTPredefinedActionName" : "Next",
-          "BTTAdditionalConfiguration" : "8388608",
-          "BTTEnabled2" : 1,
-          "BTTUUID" : "ECE29D52-A642-4C71-9044-3EB3E09886FF",
-          "BTTTriggerOnDown" : 1,
-          "BTTEnabled" : 1,
-          "BTTModifierMode" : 0,
-          "BTTAlternateModifierKeys" : 0,
-          "BTTShortcutKeyCode" : 98,
-          "BTTShortcutModifierKeys" : 8388608,
-          "BTTOrder" : 4,
-          "BTTDisplayOrder" : 0,
-          "BTTMergeIntoTouchBarGroups" : 0
-        },
-        {
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : 26,
-          "BTTPredefinedActionName" : "Previous",
-          "BTTAdditionalConfiguration" : "8388608",
-          "BTTEnabled2" : 1,
-          "BTTUUID" : "F482495C-A316-48CE-B27E-422818008A61",
-          "BTTTriggerOnDown" : 1,
-          "BTTEnabled" : 1,
-          "BTTModifierMode" : 0,
-          "BTTAlternateModifierKeys" : 0,
-          "BTTShortcutKeyCode" : 96,
-          "BTTShortcutModifierKeys" : 8388608,
-          "BTTOrder" : 2,
-          "BTTDisplayOrder" : 0,
-          "BTTMergeIntoTouchBarGroups" : 0
-        },
-        {
-          "BTTTriggerType" : 1003,
-          "BTTTriggerTypeDescription" : "Button 3",
-          "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
-          "BTTPredefinedActionType" : 77,
-          "BTTPredefinedActionName" : "3F Swipe Left (Page Back)",
-          "BTTEnabled2" : 1,
-          "BTTUUID" : "E213228B-B6A2-4FF3-AE45-64A48F4ACDEA",
-          "BTTEnabled" : 1,
-          "BTTModifierMode" : 0,
-          "BTTAlternateModifierKeys" : 0,
-          "BTTOrder" : 0,
-          "BTTDisplayOrder" : 0,
-          "BTTMergeIntoTouchBarGroups" : 0
-        },
-        {
+          "BTTTriggerType" : -1,
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
           "BTTPredefinedActionType" : 14,
           "BTTPredefinedActionName" : "Sleep Computer",
@@ -216,6 +160,24 @@
           "BTTShortcutKeyCode" : 113,
           "BTTShortcutModifierKeys" : 8388608,
           "BTTOrder" : 0,
+          "BTTDisplayOrder" : 0,
+          "BTTMergeIntoTouchBarGroups" : 0
+        },
+        {
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 27,
+          "BTTPredefinedActionName" : "Next",
+          "BTTAdditionalConfiguration" : "8388608",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "ECE29D52-A642-4C71-9044-3EB3E09886FF",
+          "BTTTriggerOnDown" : 1,
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+          "BTTAlternateModifierKeys" : 0,
+          "BTTShortcutKeyCode" : 98,
+          "BTTShortcutModifierKeys" : 8388608,
+          "BTTOrder" : 4,
           "BTTDisplayOrder" : 0,
           "BTTMergeIntoTouchBarGroups" : 0
         },
@@ -239,6 +201,55 @@
           "BTTMergeIntoTouchBarGroups" : 0
         },
         {
+          "BTTTriggerType" : 1003,
+          "BTTTriggerTypeDescription" : "Button 3",
+          "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
+          "BTTPredefinedActionType" : 77,
+          "BTTPredefinedActionName" : "3F Swipe Left (Page Back)",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "E213228B-B6A2-4FF3-AE45-64A48F4ACDEA",
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+          "BTTAlternateModifierKeys" : 0,
+          "BTTOrder" : 0,
+          "BTTDisplayOrder" : 0,
+          "BTTMergeIntoTouchBarGroups" : 0
+        },
+        {
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 26,
+          "BTTPredefinedActionName" : "Previous",
+          "BTTAdditionalConfiguration" : "8388608",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "F482495C-A316-48CE-B27E-422818008A61",
+          "BTTTriggerOnDown" : 1,
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+          "BTTAlternateModifierKeys" : 0,
+          "BTTShortcutKeyCode" : 96,
+          "BTTShortcutModifierKeys" : 8388608,
+          "BTTOrder" : 2,
+          "BTTDisplayOrder" : 0,
+          "BTTMergeIntoTouchBarGroups" : 0
+        },
+        {
+          "BTTTriggerType" : 1004,
+          "BTTTriggerTypeDescription" : "Button 4",
+          "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
+          "BTTPredefinedActionType" : 78,
+          "BTTPredefinedActionName" : "3F Swipe Right (Page Forward)",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "BAB06C82-D6BA-4B45-B7DF-48B9CA65931B",
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+          "BTTAlternateModifierKeys" : 0,
+          "BTTOrder" : 1,
+          "BTTDisplayOrder" : 0,
+          "BTTMergeIntoTouchBarGroups" : 0
+        },
+        {
+          "BTTTriggerType" : -1,
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
           "BTTPredefinedActionType" : 23,
           "BTTPredefinedActionName" : "Play\/Pause",
@@ -255,13 +266,6 @@
           "BTTDisplayOrder" : 0,
           "BTTMergeIntoTouchBarGroups" : 0
         }
-      ]
-    },
-    {
-      "BTTAppBundleIdentifier" : "com.apple.finder",
-      "BTTAppName" : "Finder",
-      "BTTTriggers" : [
-
       ]
     }
   ],
