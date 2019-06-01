@@ -15,7 +15,7 @@ alias gcm='git checkout master'
 gnb() { git checkout -b $1; }
 
 alias b='yarn build'
-alias c='yarn coverage'
+alias c='yarn commit'
 alias d='yarn dev'
 alias i='npm install'
 alias i='yarn install'
