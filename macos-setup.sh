@@ -134,6 +134,8 @@ open "/Applications/Google Chrome.app" --args --make-default-browser
 echo "Configuring Git"
 git config --global user.email "mark@murray.xyz"
 git config --global user.name "Mark Murray"
+git config --global push.default current
+git config --global branch.autosetuprebase always
 
 if [ -f ~/.ssh/id_rsa.pub ]; then
    echo "SSH key already exists"
