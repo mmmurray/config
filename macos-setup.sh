@@ -136,6 +136,7 @@ git config --global user.email "mark@murray.xyz"
 git config --global user.name "Mark Murray"
 git config --global push.default current
 git config --global branch.autosetuprebase always
+git config --global push.followTags true
 
 if [ -f ~/.ssh/id_rsa.pub ]; then
    echo "SSH key already exists"
