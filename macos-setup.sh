@@ -137,6 +137,7 @@ git config --global user.name "Mark Murray"
 git config --global push.default current
 git config --global branch.autosetuprebase always
 git config --global push.followTags true
+git config --global commit.gpgsign true
 
 if [ -f ~/.ssh/id_rsa.pub ]; then
    echo "SSH key already exists"
@@ -167,6 +168,10 @@ brew cask install bettertouchtool
 
 echo "Installing hub"
 brew install hub
+
+echo "Installing gpg"
+brew install gpg
+brew cask install gpg-suite
 
 echo "Installing Node"
 brew install node
