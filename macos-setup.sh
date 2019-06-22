@@ -138,6 +138,8 @@ git config --global push.default current
 git config --global branch.autosetuprebase always
 git config --global push.followTags true
 git config --global commit.gpgsign true
+git config --global gpg.program gpg
+git config --global user.signingkey C2BC8FAE73BF98B7
 
 if [ -f ~/.ssh/id_rsa.pub ]; then
    echo "SSH key already exists"
