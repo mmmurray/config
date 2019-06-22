@@ -30,5 +30,4 @@ alias y='yarn'
 alias ls='ls -la'
 alias o='open'
 
-export PROMPT="😐  $PROMPT"
 export PATH=$PATH:~/bin
