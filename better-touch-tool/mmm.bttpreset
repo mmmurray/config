@@ -16,7 +16,7 @@
     "BTTTouchBarHapticFeedback" : 0,
     "BTTForceNormalClickPressure" : 150,
     "BSTSnapAreaDefaultHighlightColor" : "92.624286, 122.650411, 161.665578, 56.100000",
-    "BTTLastClamshellState" : true,
+    "BTTLastClamshellState" : false,
     "BSTSnapAreaDefaultShowPictogram" : false,
     "BTTAllowThumbIfAllFingersArePlacedSimultaneously" : true,
     "BTTShowESCWhenControlStripHidden" : true,
@@ -25,6 +25,8 @@
     "BTTForceNormalClickPressure3F" : 150,
     "BSTSnapAreaDefaultBorderColor" : "0.000000, 0.000000, 0.000000, 255.000000",
     "BSTTopMissionControlTreshold" : 34,
+    "controlResize" : true,
+    "shiftMove" : true,
     "singleFingerTapRight" : 0.05000000074505806,
     "BTTDrawingsHighlightStartPoint" : true,
     "BSTWindowGrabPosX" : 67,
@@ -115,7 +117,7 @@
     "BSTCornerRoundness" : 40,
     "BTTDismissIfNothingToShow" : true,
     "BSTPreventTopMissionControl" : true,
-    "BTTNumberOfStarts" : 352,
+    "BTTNumberOfStarts" : 362,
     "BTTHTTPServerEncrypted" : false,
     "showKeyboardTab" : true,
     "BTTConvertedDevices" : true,
@@ -132,8 +134,15 @@
     "BTTTouchBarVisible" : false,
     "BTTTouchBarUseMonoSpacedFont" : true
   },
-  "BTTPresetUUID" : "5C85EA97-1172-40FB-80DE-E71DA4A0E709",
+  "BTTPresetUUID" : "07EABE08-440A-4CE3-AD57-0F33358635F1",
   "BTTPresetContent" : [
+    {
+      "BTTAppBundleIdentifier" : "com.apple.finder",
+      "BTTAppName" : "Finder",
+      "BTTTriggers" : [
+
+      ]
+    },
     {
       "BTTAppBundleIdentifier" : "BT.G",
       "BTTAppName" : "Global",
@@ -141,6 +150,42 @@
 
       },
       "BTTTriggers" : [
+        {
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 14,
+          "BTTPredefinedActionName" : "Sleep Computer",
+          "BTTAdditionalConfiguration" : "8388608",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "3D3AF600-0B0B-439A-AC3A-5765A74CD3B2",
+          "BTTTriggerOnDown" : 1,
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+          "BTTAlternateModifierKeys" : 0,
+          "BTTShortcutKeyCode" : 113,
+          "BTTShortcutModifierKeys" : 8388608,
+          "BTTOrder" : 0,
+          "BTTDisplayOrder" : 0,
+          "BTTMergeIntoTouchBarGroups" : 0
+        },
+        {
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 23,
+          "BTTPredefinedActionName" : "Play\/Pause",
+          "BTTAdditionalConfiguration" : "8388608",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "10C446B4-8665-4DF2-8B70-9ECCF0640B1B",
+          "BTTTriggerOnDown" : 1,
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+          "BTTAlternateModifierKeys" : 0,
+          "BTTShortcutKeyCode" : 97,
+          "BTTShortcutModifierKeys" : 8388608,
+          "BTTOrder" : 3,
+          "BTTDisplayOrder" : 0,
+          "BTTMergeIntoTouchBarGroups" : 0
+        },
         {
           "BTTTriggerType" : -1,
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
@@ -177,18 +222,19 @@
         {
           "BTTTriggerType" : -1,
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : 23,
-          "BTTPredefinedActionName" : "Play\/Pause",
-          "BTTAdditionalConfiguration" : "8388608",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "53",
+          "BTTAdditionalConfiguration" : "0",
           "BTTEnabled2" : 1,
-          "BTTUUID" : "10C446B4-8665-4DF2-8B70-9ECCF0640B1B",
+          "BTTUUID" : "D949C968-E396-4B4D-BC58-21D4250A183B",
           "BTTTriggerOnDown" : 1,
           "BTTEnabled" : 1,
           "BTTModifierMode" : 0,
           "BTTAlternateModifierKeys" : 0,
-          "BTTShortcutKeyCode" : 97,
-          "BTTShortcutModifierKeys" : 8388608,
-          "BTTOrder" : 3,
+          "BTTShortcutKeyCode" : 10,
+          "BTTShortcutModifierKeys" : 0,
+          "BTTOrder" : 1,
           "BTTDisplayOrder" : 0,
           "BTTMergeIntoTouchBarGroups" : 0
         },
@@ -224,51 +270,7 @@
           "BTTOrder" : 2,
           "BTTDisplayOrder" : 0,
           "BTTMergeIntoTouchBarGroups" : 0
-        },
-        {
-          "BTTTriggerType" : -1,
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : -1,
-          "BTTPredefinedActionName" : "No Action",
-          "BTTShortcutToSend" : "53",
-          "BTTAdditionalConfiguration" : "0",
-          "BTTEnabled2" : 1,
-          "BTTUUID" : "D949C968-E396-4B4D-BC58-21D4250A183B",
-          "BTTTriggerOnDown" : 1,
-          "BTTEnabled" : 1,
-          "BTTModifierMode" : 0,
-          "BTTAlternateModifierKeys" : 0,
-          "BTTShortcutKeyCode" : 10,
-          "BTTShortcutModifierKeys" : 0,
-          "BTTOrder" : 1,
-          "BTTDisplayOrder" : 0,
-          "BTTMergeIntoTouchBarGroups" : 0
-        },
-        {
-          "BTTTriggerType" : -1,
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : 14,
-          "BTTPredefinedActionName" : "Sleep Computer",
-          "BTTAdditionalConfiguration" : "8388608",
-          "BTTEnabled2" : 1,
-          "BTTUUID" : "3D3AF600-0B0B-439A-AC3A-5765A74CD3B2",
-          "BTTTriggerOnDown" : 1,
-          "BTTEnabled" : 1,
-          "BTTModifierMode" : 0,
-          "BTTAlternateModifierKeys" : 0,
-          "BTTShortcutKeyCode" : 113,
-          "BTTShortcutModifierKeys" : 8388608,
-          "BTTOrder" : 0,
-          "BTTDisplayOrder" : 0,
-          "BTTMergeIntoTouchBarGroups" : 0
         }
-      ]
-    },
-    {
-      "BTTAppBundleIdentifier" : "com.apple.finder",
-      "BTTAppName" : "Finder",
-      "BTTTriggers" : [
-
       ]
     }
   ],
