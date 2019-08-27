@@ -31,3 +31,4 @@ alias ls='ls -la'
 alias o='open'
 
 export PATH=$PATH:~/bin
+export GPG_TTY=$(tty)
