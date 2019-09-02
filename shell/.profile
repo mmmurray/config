@@ -30,5 +30,7 @@ alias y='yarn'
 alias ls='ls -la'
 alias o='open'
 
+resign() { git rebase --exec 'git commit --amend --no-edit -n -S' -i $1; }
+
 export PATH=$PATH:~/bin
 export GPG_TTY=$(tty)
