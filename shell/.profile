@@ -33,4 +33,5 @@ alias o='open'
 resign() { git rebase --exec 'git commit --amend --no-edit -n -S' -i $1; }
 
 export PATH=$PATH:~/bin
+export PATH=$PATH:~/.local/bin
 export GPG_TTY=$(tty)
