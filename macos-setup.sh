@@ -172,6 +172,12 @@ brew cask install bettertouchtool
 echo "Installing hub"
 brew install hub
 
+echo "Installing AWS CLI"
+brew install awscli
+
+echo "Installing Terraform"
+brew install terraform
+
 echo "Installing gpg"
 brew install gpg
 brew cask install gpg-suite
