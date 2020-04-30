@@ -26,6 +26,7 @@ alias s='yarn start'
 alias t='yarn test'
 alias w='yarn watch'
 alias y='yarn'
+alias lt='yarn lint && yarn test'
 
 alias ls='ls -la'
 alias o='open'
