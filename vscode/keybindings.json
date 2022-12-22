@@ -1,0 +1,199 @@
+[
+  {
+    "key": "cmd+w",
+    "command": "workbench.action.terminal.kill",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "cmd+t",
+    "command": "workbench.action.terminal.new"
+  },
+  {
+    "key": "cmd+j",
+    "command": "workbench.action.toggleAuxiliaryBar"
+  },
+  {
+    "key": "alt+/",
+    "command": "editor.action.blockComment",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+cmd+\\",
+    "command": "workbench.action.splitEditor"
+  },
+  {
+    "key": "shift+f12",
+    "command": "references-view.findReferences",
+    "when": "editorHasReferenceProvider"
+  },
+
+  // Moonlander keyboard layer (ctrl+alt+cmd modifiers)
+
+  // 💥 J (Placeholder for Q since can't assign shift+ctrl+alt+cmd+q)
+  {
+    "key": "ctrl+alt+cmd+j",
+    "command": "editor.action.organizeImports",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+ctrl+alt+cmd+j",
+    "command": "editor.toggleFold",
+    "when": "textInputFocus && !editorReadonly"
+  },
+
+  // 💥 W
+  {
+    "key": "ctrl+alt+cmd+w",
+    "command": "editor.action.selectHighlights",
+    "when": "editorFocus"
+  },
+  {
+    "key": "shift+ctrl+alt+cmd+w",
+    "command": "editor.action.insertCursorAtEndOfEachLineSelected",
+    "when": "editorTextFocus"
+  },
+
+  // 💥 F
+  {
+    "key": "ctrl+alt+cmd+f",
+    "command": "editor.action.insertCursorAbove",
+    "when": "editorFocus"
+  },
+  {
+    "key": "shift+ctrl+alt+cmd+f",
+    "command": "editor.action.marker.nextInFiles",
+    "when": "editorTextFocus"
+  },
+
+  // 💥 P
+  {
+    "key": "ctrl+alt+cmd+p",
+    "command": "editor.action.addSelectionToNextFindMatch",
+    "when": "editorFocus"
+  },
+  {
+    "key": "shift+ctrl+alt+cmd+p",
+    "command": "editor.action.moveSelectionToNextFindMatch",
+    "when": "editorTextFocus"
+  },
+
+  // 💥 G
+  {
+    "key": "ctrl+alt+cmd+g",
+    "command": "workbench.scm.focus"
+  },
+
+  // 💥 A
+  {
+    "key": "ctrl+alt+cmd+a",
+    "command": "editor.action.insertLineAfter",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+ctrl+alt+cmd+a",
+    "command": "editor.action.insertLineBefore",
+    "when": "textInputFocus && !editorReadonly"
+  },
+
+  // 💥 R
+  {
+    "key": "ctrl+alt+cmd+r",
+    "command": "editor.action.smartSelect.shrink",
+    "when": "textInputFocus && !editorReadonly"
+  },
+
+  // 💥 S
+  {
+    "key": "ctrl+alt+cmd+s",
+    "command": "editor.action.rename",
+    "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+ctrl+alt+cmd+s",
+    "command": "editor.action.refactor",
+    "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
+  },
+
+  // 💥 T
+  {
+    "key": "ctrl+alt+cmd+t",
+    "command": "editor.action.smartSelect.expand",
+    "when": "textInputFocus && !editorReadonly"
+  },
+
+  // 💥 D
+  {
+    "key": "ctrl+alt+cmd+d",
+    "command": "workbench.explorer.fileView.focus"
+  },
+
+  // 💥 Z
+  {
+    "key": "ctrl+alt+cmd+z",
+    "command": "editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+ctrl+alt+cmd+z",
+    "command": "deleteInsideWord",
+    "when": "textInputFocus && !editorReadonly"
+  },
+
+  // 💥 X
+  {
+    "key": "ctrl+alt+cmd+x",
+    "command": "workbench.action.closeOtherEditors"
+  },
+  {
+    "key": "shift+ctrl+alt+cmd+x",
+    "command": "workbench.action.closeAllEditors"
+  },
+
+  // 💥 C
+  {
+    "key": "ctrl+alt+cmd+c",
+    "command": "editor.action.insertCursorBelow",
+    "when": "editorFocus"
+  },
+  {
+    "key": "shift+ctrl+alt+cmd+c",
+    "command": "editor.action.jumpToBracket",
+    "when": "editorTextFocus"
+  },
+
+  // 💥 V
+  {
+    "key": "ctrl+alt+cmd+v",
+    "command": "workbench.action.terminal.focus"
+  },
+  {
+    "key": "ctrl+alt+cmd+v",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "shift+ctrl+alt+cmd+v",
+    "command": "workbench.action.terminal.focusNextPane",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "shift+ctrl+alt+cmd+v",
+    "command": "workbench.action.focusSideBar",
+    "when": "editorFocus"
+  },
+  {
+    "key": "shift+ctrl+alt+cmd+v",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "!editorFocus && !terminalFocus"
+  },
+
+  // 💥 B
+  {
+    "key": "ctrl+alt+cmd+b",
+    "command": "editor.foldAllExcept"
+  },
+  {
+    "key": "shift+ctrl+alt+cmd+b",
+    "command": "editor.unfoldAll"
+  }
+]
