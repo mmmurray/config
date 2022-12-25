@@ -137,9 +137,7 @@ git config --global user.name "Mark Murray"
 git config --global push.default current
 git config --global branch.autosetuprebase always
 git config --global push.followTags true
-git config --global commit.gpgsign true
-git config --global gpg.program gpg
-git config --global user.signingkey C2BC8FAE73BF98B7
+git config --global init.defaultBranch master
 git config --global core.editor "code --wait"
 
 if [ -f ~/.ssh/id_rsa.pub ]; then

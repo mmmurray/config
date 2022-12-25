@@ -26,6 +26,16 @@
     "command": "references-view.findReferences",
     "when": "editorHasReferenceProvider"
   },
+  {
+    "key": "cmd+[",
+    "command": "workbench.action.terminal.focusPreviousPane",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "cmd+]",
+    "command": "workbench.action.terminal.focusNextPane",
+    "when": "terminalFocus"
+  },
 
   // Moonlander keyboard layer (ctrl+alt+cmd modifiers)
 
@@ -164,27 +174,21 @@
   // 💥 V
   {
     "key": "ctrl+alt+cmd+v",
-    "command": "workbench.action.terminal.focus"
+    "command": "workbench.action.focusActiveEditorGroup"
   },
   {
     "key": "ctrl+alt+cmd+v",
-    "command": "workbench.action.focusActiveEditorGroup",
-    "when": "terminalFocus"
+    "command": "workbench.action.terminal.focus",
+    "when": "editorFocus || activeEditorGroupEmpty"
   },
   {
     "key": "shift+ctrl+alt+cmd+v",
-    "command": "workbench.action.terminal.focusNextPane",
-    "when": "terminalFocus"
+    "command": "workbench.action.focusActiveEditorGroup"
   },
   {
     "key": "shift+ctrl+alt+cmd+v",
     "command": "workbench.action.focusSideBar",
-    "when": "editorFocus"
-  },
-  {
-    "key": "shift+ctrl+alt+cmd+v",
-    "command": "workbench.action.focusActiveEditorGroup",
-    "when": "!editorFocus && !terminalFocus"
+    "when": "!sideBarFocus"
   },
 
   // 💥 B
