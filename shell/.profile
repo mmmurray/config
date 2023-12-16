@@ -33,6 +33,8 @@ alias lt='yarn lint && yarn test'
 alias ls='ls -la'
 alias o='open'
 
+alias mt='mice run ./meta/test.mice'
+
 resign() { git rebase --exec 'git commit --amend --no-edit -n -S' -i $1; }
 
 export PATH=$PATH:~/bin
