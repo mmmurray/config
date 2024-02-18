@@ -33,9 +33,11 @@ alias lt='yarn lint && yarn test'
 alias ls='ls -la'
 alias o='open'
 
+alias m='mice'
 alias mt='mice run ./meta/test.mice'
 alias mu='mice upgrade'
 alias mv='mice version'
+alias mf='mice format'
 
 resign() { git rebase --exec 'git commit --amend --no-edit -n -S' -i $1; }
 
