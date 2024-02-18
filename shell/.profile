@@ -34,6 +34,8 @@ alias ls='ls -la'
 alias o='open'
 
 alias mt='mice run ./meta/test.mice'
+alias mu='mice upgrade'
+alias mv='mice version'
 
 resign() { git rebase --exec 'git commit --amend --no-edit -n -S' -i $1; }
 
