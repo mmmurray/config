@@ -9,10 +9,6 @@
     "command": "workbench.action.terminal.new"
   },
   {
-    "key": "cmd+j",
-    "command": "workbench.action.toggleAuxiliaryBar"
-  },
-  {
     "key": "alt+/",
     "command": "editor.action.blockComment",
     "when": "editorTextFocus && !editorReadonly"
@@ -49,6 +45,11 @@
     "key": "shift+ctrl+alt+cmd+j",
     "command": "editor.toggleFold",
     "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+alt+cmd+j",
+    "command": "list.collapseAll",
+    "when": "explorerViewletFocus"
   },
 
   // 💥 W
@@ -89,12 +90,6 @@
 
   // 💥 G
   {
-    "key": "ctrl+alt+cmd+g",
-    "command": "workbench.scm.focus"
-  },
-
-  // 💥 A
-  {
     "key": "ctrl+alt+cmd+a",
     "command": "editor.action.insertLineAfter",
     "when": "textInputFocus && !editorReadonly"
@@ -103,6 +98,16 @@
     "key": "shift+ctrl+alt+cmd+a",
     "command": "editor.action.insertLineBefore",
     "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+alt+cmd+a",
+    "command": "explorer.newFile",
+    "when": "explorerViewletFocus"
+  },
+  {
+    "key": "shift+ctrl+alt+cmd+a",
+    "command": "explorer.newFolder",
+    "when": "explorerViewletFocus"
   },
 
   // 💥 R
@@ -122,6 +127,11 @@
     "key": "shift+ctrl+alt+cmd+s",
     "command": "editor.action.refactor",
     "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+alt+cmd+s",
+    "command": "explorer.openAndPassFocus",
+    "when": "explorerViewletFocus"
   },
 
   // 💥 T
@@ -199,5 +209,76 @@
   {
     "key": "shift+ctrl+alt+cmd+b",
     "command": "editor.unfoldAll"
+  },
+
+  // Other
+  {
+    "key": "ctrl+alt+cmd+g",
+    "command": "magit.status"
+  },
+  {
+    "key": "alt+x g",
+    "command": "-magit.status"
+  },
+  {
+    "key": "ctrl+-",
+    "command": "-workbench.action.navigateBack",
+    "when": "canNavigateBack"
+  },
+  {
+    "key": "ctrl+shift+-",
+    "command": "-workbench.action.navigateForward",
+    "when": "canNavigateForward"
+  },
+  {
+    "key": "ctrl+shift+-",
+    "command": "workbench.action.navigateForward"
+  },
+  {
+    "key": "ctrl+-",
+    "command": "workbench.action.navigateBack"
+  },
+  {
+    "key": "ctrl+-",
+    "command": "-workbench.action.quickInputBack",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "pageup",
+    "command": "cursorMove",
+    "args": {
+      "to": "up",
+      "by": "line",
+      "value": 16
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "pagedown",
+    "command": "cursorMove",
+    "args": {
+      "to": "down",
+      "by": "line",
+      "value": 16
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "pageup",
+    "command": "-cursorPageUp",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "pagedown",
+    "command": "-cursorPageDown",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+shift+alt+cmd+r",
+    "command": "editor.action.moveCarretLeftAction"
+  },
+  {
+    "key": "ctrl+shift+alt+cmd+t",
+    "command": "editor.action.moveCarretRightAction"
   }
 ]
