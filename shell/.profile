@@ -30,14 +30,14 @@ alias w='yarn watch'
 alias y='yarn'
 alias lt='yarn lint && yarn test'
 
-alias ls='ls -la'
+alias ls='ls -lha'
 alias o='open'
 
-alias m='mice'
-alias mt='mice run ./meta/test.mice'
-alias mu='mice upgrade'
-alias mv='mice version'
-alias mf='mice format'
+alias m='monic-beta'
+alias mp='monic-beta run ./meta/publish.mon'
+alias mt='monic-beta run ./meta/test.mon'
+alias mu='monic-beta upgrade'
+alias mf='monic-beta format'
 
 resign() { git rebase --exec 'git commit --amend --no-edit -n -S' -i $1; }
 
